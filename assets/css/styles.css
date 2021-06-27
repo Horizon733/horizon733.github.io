@@ -712,8 +712,8 @@ nav{
 }
 
 .rounded{
-    width: 365px;
-    height: 365px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
@@ -911,7 +911,11 @@ nav{
     .qualification__tabs .qualification__button .qualification__header{
         display: none;
     }
-
+    .rounded{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
     .videos__data,
     .videos__header{
         flex-direction: column;
@@ -955,7 +959,11 @@ nav{
         flex-direction: column;
         align-items: center;
     }
-    
+    .rounded{
+            width: 365px;
+            height: 365px;
+            border-radius: 50%;
+        }
 
     
 }
