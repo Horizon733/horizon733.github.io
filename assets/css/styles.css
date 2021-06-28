@@ -513,6 +513,18 @@ nav{
     width: 65%;
 }
 
+.skills__yml{
+    width: 45%;
+}
+
+.skills__rest{
+    width: 45%;
+}
+
+.skills__sql{
+    width: 65%;
+}
+
 .skills__git{
     width: 50%;
 }
@@ -523,6 +535,22 @@ nav{
 
 .skills__docker{
     width: 30%;
+}
+
+.skills__django{
+    width: 50%;
+}
+
+.skills__html{
+    width: 90%;
+}
+
+.skills__css{
+    width: 70%;
+}
+
+.skills__js{
+    width: 40%;
 }
 
 .skills__close .skills__list{
