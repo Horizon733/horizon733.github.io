@@ -891,6 +891,19 @@ nav{
     bottom: 5rem;
 }
 
+/*========== CHATWIDGET ==========*/
+.rw-conversation-container .rw-header{
+    background-color: var(--first-color);
+}
+
+.rw-launcher{
+    background-color: var(--first-color);
+}
+
+.rw-conversation-container .rw-send button{
+    color: var(--first-color)
+}
+
 /*========== SCROLL BAR ==========*/
 ::-webkit-scrollbar{
     width: .60rem;

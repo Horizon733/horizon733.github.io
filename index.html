@@ -950,6 +950,65 @@
         <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
+    <!--==================== CHATWIDGET ====================-->
+    <section class="section">
+        <style>
+             .rw-conversation-container .rw-header{
+                 background-color: hsl(var(--hue-color), 69%, 61%);
+                }
+
+            .rw-conversation-container 
+            .rw-messages-container 
+            .rw-message 
+            .rw-client{
+                background-color: hsl(var(--hue-color), 69%, 61%);
+            }
+        
+        .rw-launcher{
+            background-color: hsl(var(--hue-color), 69%, 61%); 
+            box-shadow: 0 0px 0px 0px; 
+            margin-bottom: 3rem;
+        }
+        
+        @media screen and  (min-width: 768px) {
+            .rw-launcher{
+                margin-bottom: 0rem;
+            }
+
+        }
+        .rw-conversation-container .rw-reply{
+            background-color: hsl(var(--hue-color), 69%, 61%); 
+            border: 1px solid hsl(var(--hue-color), 69%, 61%);
+        }
+        </style>
+<script>!(function () {
+        let e = document.createElement("script"),
+          t = document.head || document.getElementsByTagName("head")[0];
+        (e.src =
+          "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"),
+          (e.async = !0),
+          (e.onload = () => {
+            window.WebChat.default(
+              {
+                initPaylod: "/greet",
+                customData: { language: "en" },
+                socketUrl: "https://rasa-horizon733.cloud.okteto.net/",
+                title: 'Portfolio Bot',
+                subtitle: 'Currently in development'
+                // subtitle: 'Will give info on my creator'
+
+                // add other props here
+              },
+              null
+            );
+          }),
+          t.insertBefore(e, t.firstChild);
+      })();
+      </script>
+    </section>
+    
+
+
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
