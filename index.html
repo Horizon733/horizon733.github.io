@@ -140,8 +140,10 @@
                 <img src="assets/img/about.jpg" alt="" class="about__img">
                 <div class="about__data">
                     <p class="about__description">
-                        My job entails creating and implementing chatbots. I've primarily worked on Rasa Chatbots, Discord bots, and a simple NLP bot.
-                        Also, I am a Rasa Hero, an exclusive title granted to 20+ skilled contributors in Rasa from a total of 17k+ members.
+                        My job entails creating and implementing chatbots. I've primarily worked on Rasa Chatbots,
+                        Discord bots, and a simple NLP bot.
+                        Also, I am a Rasa Hero, an exclusive title granted to 20+ skilled contributors in Rasa from a
+                        total of 17k+ members.
                         I'd be delighted to advise or assist you in the development of chatbots from the ground up.
                     </p>
                     <div class="about__info">
@@ -552,7 +554,7 @@
                                 <span class="qualification__rounder"></span>
                                 <span class="qualification__line"></span>
                             </div>
-                            
+
                             <div>
                                 <h3 class="qualification__title">Chatbot Developer Internship</h3>
                                 <span class="qualification__subtitle">NeuralSpace - Remote</span>
@@ -562,7 +564,7 @@
                                 </div>
                             </div>
 
-                            
+
                         </div>
                     </div>
                     <!--==================== QUALIFICATION CONTENT 3 - EDUCATION ====================-->
@@ -672,7 +674,7 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Discord Connector for Rasa</h3>
-                            <p class="portfolio__description">A connector channel which will directly 
+                            <p class="portfolio__description">A connector channel which will directly
                                 connect Rasa chatbot with Discord bot and have a great chatting experience.
                             </p>
                             <div class="portfolio__calendar">
@@ -681,7 +683,7 @@
                             </div>
                             <a href="" class="button button--flex button--small portfolio__button" aria-current="page">
                                 Currently working
-                               </a>
+                            </a>
                         </div>
                     </div>
 
@@ -691,12 +693,12 @@
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Spammy Discord bot</h3>
-                            <p class="portfolio__description">A discord bot which can play music, 
+                            <p class="portfolio__description">A discord bot which can play music,
                                 get game invite codes and spam people for fun</p>
-                                <div class="portfolio__calendar">
-                                    <i class="uil uil-calendar-alt"></i>
-                                    May 2021 - Present
-                                </div>
+                            <div class="portfolio__calendar">
+                                <i class="uil uil-calendar-alt"></i>
+                                May 2021 - Present
+                            </div>
                             <a href="" class="button button--flex button--small portfolio__button" aria-current="page">
                                 Currently working</i>
                             </a>
@@ -705,13 +707,14 @@
 
                     <!--==================== PORTFOLIO 3 ====================-->
                     <div class="portfolio__content grid swiper-slide">
-                        <img src="https://i.pinimg.com/originals/54/ab/7c/54ab7c13a16478beb0ddfec0af299b6c.jpg" alt="" class="portfolio__img">
+                        <img src="https://i.pinimg.com/originals/54/ab/7c/54ab7c13a16478beb0ddfec0af299b6c.jpg" alt=""
+                            class="portfolio__img">
 
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">E-commerce Rasa Chatbot</h3>
-                            <p class="portfolio__description">A Rasa E-Commerce chatbot built for NeuralSpace. Which can 
+                            <p class="portfolio__description">A Rasa E-Commerce chatbot built for NeuralSpace. Which can
                                 Search product with filters like brand, price, gender and many more...
-                                 It can also solve customer queries like return order and other faqs
+                                It can also solve customer queries like return order and other faqs
                             </p>
                             <div class="portfolio__calendar">
                                 <i class="uil uil-calendar-alt"></i>
@@ -975,61 +978,65 @@
 
     <!--==================== CHATWIDGET ====================-->
 
-        <style>
-             .rw-conversation-container .rw-header{
-                 background-color: hsl(var(--hue-color), 69%, 61%);
-                }
+    <style>
+        .rw-conversation-container .rw-header {
+            background-color: hsl(var(--hue-color), 69%, 61%);
+        }
 
-            .rw-conversation-container 
-            .rw-messages-container 
-            .rw-message 
-            .rw-client{
-                background-color: hsl(var(--hue-color), 69%, 61%);
-            }
-        
-        .rw-launcher{
-            background-color: hsl(var(--hue-color), 69%, 61%); 
-            box-shadow: 0 0px 0px 0px; 
+        .rw-conversation-container .rw-title {
+            color: hsl(var(--hue-color), 8%, 95%);
+        }
+
+        .rw-conversation-container .rw-header .rw-with-subtitle .rw-avatar{
+            fill: hsl(var(--hue-color), 8%, 95%);
+        }
+
+        .rw-conversation-container .rw-messages-container .rw-message .rw-client {
+            background-color: hsl(var(--hue-color), 69%, 61%);
+        }
+
+        .rw-launcher {
+            background-color: hsl(var(--hue-color), 69%, 61%);
+            box-shadow: 0 0px 0px 0px;
             margin-bottom: 3rem;
         }
-        
-        @media screen and  (min-width: 768px) {
-            .rw-launcher{
+
+        @media screen and (min-width: 768px) {
+            .rw-launcher {
                 margin-bottom: 0rem;
             }
 
         }
-        .rw-conversation-container .rw-reply{
-            background-color: hsl(var(--hue-color), 69%, 61%); 
+
+        .rw-conversation-container .rw-reply {
+            background-color: hsl(var(--hue-color), 69%, 61%);
             border: 1px solid hsl(var(--hue-color), 69%, 61%);
         }
-        </style>
-<script>!(function () {
-        let e = document.createElement("script"),
-          t = document.head || document.getElementsByTagName("head")[0];
-        (e.src =
-          "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"),
-          (e.async = !0),
-          (e.onload = () => {
-            window.WebChat.default(
-              {
-                initPaylod: "/greet",
-                customData: { language: "en" },
-                socketUrl: "https://rasa-horizon733.cloud.okteto.net/",
-                title: 'Portfolio Bot',
-                subtitle: 'Currently in development'
-                // subtitle: 'Will give info on my creator'
-
-                // add other props here
-              },
-              null
-            );
-          }),
-          t.insertBefore(e, t.firstChild);
-      })();
-      </script>
-    
-
+    </style>
+    <script>!(function () {
+            let e = document.createElement("script"),
+                t = document.head || document.getElementsByTagName("head")[0];
+            (e.src =
+                "https://cdn.jsdelivr.net/npm/rasa-webchat@1.0.0/lib/index.js"),
+                (e.async = !0),
+                (e.onload = () => {
+                    window.WebChat.default(
+                        {
+                            initPaylod: "/greet",
+                            customData: { language: "en" },
+                            socketUrl: "https://rasa-horizon733.cloud.okteto.net/",
+                            title: 'Portfolio Bot',
+                            subtitle: 'Currently in development',
+                            showMessageDate: true,
+                            openLauncherImage: "./assets/img/launcher.svg",
+                            closeImage: "./assets/img/close.svg",
+                        },
+                        null
+                    );
+                }),
+                t.insertBefore(e, t.firstChild);
+        })();
+    </script>
 
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
