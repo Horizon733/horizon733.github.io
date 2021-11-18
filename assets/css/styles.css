@@ -1106,7 +1106,7 @@ nav{
         grid-template-columns: .5fr;
     }
     .portfolio__img{
-        width: 320px;
+        width: 500px;
     }
     .portfolio__content{
         align-items: center;
