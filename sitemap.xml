@@ -10,6 +10,12 @@
   </url>
   
   <url>
+    <loc>https://dishantg.com/blogs/multimodal-rag-with-mongodb-vector-search</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://dishantg.com/blogs/understanding-rag-like-human-learning</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
